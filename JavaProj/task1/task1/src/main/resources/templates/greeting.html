@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Greeting</title>
+</head>
+<body>
+<h1 th:text="'Hello, ' + ${name} + '!'"></h1>
+
+<img th:src="@{/images/logo.png}" width="300" alt="Vistula logo">
+</body>
+</html>
